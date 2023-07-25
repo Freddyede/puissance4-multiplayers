@@ -2,11 +2,11 @@
 
 ## TasksList :
 - [ ] Mise en place multiplayer
-- Gaming Puissance 4 fonctionnalités
-- Login Page
-- Register Page
-- Gaming Page
-- Results Page
+- [ ] Gaming Puissance 4 fonctionnalités
+- [ ] Login Page
+- [ ] Register Page
+- [ ] Gaming Page
+- [ ] Results Page
 ## Maquettes:
 
 ### login maquettes :
