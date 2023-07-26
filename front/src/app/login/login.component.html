@@ -1,1 +1,21 @@
-<p>login works!</p>
+<app-filter></app-filter>
+<div class="hero-banner">
+    <div class="wrapper">
+        <div class="containerTitle">
+            <h1 class="titleLogin">CONNEXION :</h1>
+        </div>
+        <div class="containerForms d-flex justify-content-center align-items-center">
+            <div class="col-6 mt-5">
+                <form (ngSubmit)="this.sendUser($event)">
+                    <input type="email" placeholder="email" [(ngModel)]="user.mail" name="mail" class="form-control inputControls text-center mb-5" />
+                    <input type="password" placeholder="password" class="form-control inputControls text-center mb-5" [(ngModel)]="user.password" name="password"/>
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                            <input type="submit" class="btn btn-success" value="Connexion" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
